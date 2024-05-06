@@ -1,11 +1,12 @@
-"""i=1
+"""
+ i=int(input("Ingrese su n\n"))
 suma=0
 while(i!=0):
     i=int(input("Ingrese su n\n"))
     suma=suma+i
-suma= suma-1
+suma= suma
 print("La suma total es: \n",str(suma))"""
-
+### Solución alternativa
 acumulador=9
 Salir=False
 while salir:
