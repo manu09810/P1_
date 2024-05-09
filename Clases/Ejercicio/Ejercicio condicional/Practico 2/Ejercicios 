@@ -1,0 +1,68 @@
+1. Leer números desde teclado, hasta que el usuario ingrese el 0. Finalmente, mostrar la sumatoria de
+todos los números positivos ingresados (solo de los números que sean positivos).
+
+
+
+2. Leer números enteros positivos de teclado,
+hasta que el usuario ingrese el 0. Informar cuál fue el mayor número ingresado.
+
+
+
+3. Escribir un programa que dibuja un rectángulo en
+ pantalla utilizando el caracter “x”.
+ El tamaño del rectángulo está dado por la cantidad de “x” en la base y en la altura.
+
+Ej.: si se ingresa 7 y 5 como entrada, imprime:
+
+xxxxxxx
+x     x
+x     x
+x     x
+xxxxxxx
+
+
+
+4. Como hemos visto en el curso, en Python muchas
+funciones están implementadas en módulos que son archivo
+s conteniendo definiciones con código fuente Python.
+Para utilizar un módulo es necesario importar el módulo mediante la declaración “import” seguido del nombre del módulo.
+
+El módulo “random” contiene la función random.randint donde random.randint(1,6) devuelve un número aleatorio entre 1 y 6 (incluidos) y que se puede utilizar para simular la tirada de un dado.
+t
+a)    Realizar un programa para simular 20 tiradas de dos dados simultáneamente, dando el promedio de la suma de los resultados de los dos dados.
+
+b)    Realizar un programa que cuente la cantidad de veces que salió la cara 1, 2, … 6 en 30 tiradas.
+
+
+
+5. Recordemos el algoritmo de Hailstone realizado semanas atrás. El número de Hailstone corresponde al número de transformaciones sucesivas que se deben aplicar a un número entero hasta sea transformado en 1.
+
+Las dos reglas de transformación son:
+
+  a)  Si n es impar, multiplicar por 3 y sumar 1 para crear el nuevo valor de n.
+
+  b)  Si n es par, dividir entre 2.
+
+Por ejemplo, si n = 7, se hacen las transformaciones siguientes:
+
+7 -> 22 -> 11 -> 34 -> 17 -> 52 -> 26 -> 13 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+
+Definir un programa en python que dado un número genere el número de Hailstone (transformaciones).
+
+
+
+6. Leer un número entero positivo (mayor que 0) desde teclado e imprimir la suma de los dígitos que lo componen. Tenga en cuenta que para esto vamos a utilizar las siguientes funciones (que deberá implementar):
+
+- ultimodigito( n ): dado un número n (por ejemplo 456), deberá retornar el último de los dígitos (ej: 6)
+
+- sacarultimodigito( n ): dado un número n (ej: 456) deberá retornar el mismo número pero sin su último dígito (ejL 45)
+
+Con estas dos funciones componga el programa solicitado. Tenga en cuenta que dado un número podemos sumar sus dígitos identificando uno por uno de derecha a izquierda. Por ejemplo, para el número 1456 podemos obtener ultimodigito (es decir, identificamos el 6) y luego achicar el número con sacarultimodigito (quedaría 145). Si repetimos este procedimiento identificaremos todos los dígitos y el número se irá reduciendo hasta 0.
+
+
+
+7. Escribir un programa que indique si un número es de buena suerte o no (un número es de buena suerte si sus dígitos suman 21). Observe que puede reutilizar inteligentemente el ejercicio anterior.
+
+
+
+8. Escribir un programa que tenga como parámetro el número correspondiente a la cantidad de sumas parciales (términos de la sumatoria) y que devuelva el valor correspondiente de la sumatoria hasta ese valor ingresado. ¿conocen esta sumatoria? Prueben con varios números, ¿a qué les suena?:
