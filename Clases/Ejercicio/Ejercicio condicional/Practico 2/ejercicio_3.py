@@ -16,9 +16,10 @@ xxxxxxx
 i=0
 altura=5
 base=5
+tapa= 'x'*base+'x'
 intermedio= "x"+' '*(altura)+'x'
-print('x'*base+'x')
+print(tapa)
 while (i!=altura):
     print(intermedio)
     i=i+1
-print('x'*base+'x')
+print(tapa)
