@@ -10,5 +10,5 @@ def diferencia_horas(a,b):
         valor= b-a
     return  valor
 
-test = diferencia_horas(segundos_por_hora(1,0,0),segundos_por_hora(0,0,0))
+test = diferencia_horas(segundos_por_hora(1,86,0),segundos_por_hora(0,0,0))
 print(test)
