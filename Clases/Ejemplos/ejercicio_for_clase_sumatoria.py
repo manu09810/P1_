@@ -1,3 +1,4 @@
+#Power point de sumatorias 
 '''
 n = int(input())+1
 sumatoria=0
